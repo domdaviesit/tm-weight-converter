@@ -14,8 +14,46 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 mx-auto">
         <h1 class="display-4 text-center">Weight Converter</h1>
+        <form class="mt-4">
+          <div class="form-group">
+            <input type="number" id="poundsInput" class="form-control form-control-lg" placeholder="Enter Pounds...">
+          </div>
+        </form>
+
+        <div id="output">
+          <!-- Results Cards -->
+          <div class="card">
+            <!-- was card-block in 4.0 tut, now card-body -->
+            <div class="card-body">
+              <h4 class="card-title">Grams:</h4>
+              <!-- output result -->
+              <div id="gramsOutput"></div>
+            </div>
+          </div>
+
+          <!-- 2nd Result Card -->
+          <div class="card">
+            <!-- was card-block in 4.0 tut, now card-body -->
+            <div class="card-body">
+              <h4 class="card-title">Kilograms:</h4>
+              <!-- output result -->
+              <div id="kgOutput"></div>
+            </div>
+          </div>
+
+          <!-- 3rd Result Card -->
+          <div class="card">
+            <!-- was card-block in 4.0 tut, now card-body -->
+            <div class="card-body">
+              <!-- Added card-title class -->
+              <h4 class="card-title">Ounces:</h4>
+              <!-- output result -->
+              <div id="ouncesOutput"></div>
+            </div>
+          </div><!-- last card-->
+        </div><!-- End of outputs-->
       </div>
     </div>
   </div>
